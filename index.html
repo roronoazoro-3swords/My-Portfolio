@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohit Verma — Full‑Stack Aspirant</title>
+    <meta name="description"
+        content="Portfolio of Rohit Verma – Data & AI enthusiast, dashboard developer, and aspiring data analyst showcasing projects, skills, and experience." />
+    <meta name="keywords" content="Rohit Verma, data analyst, data science, dashboards, Power BI, Python, portfolio" />
+    <meta property="og:title" content="Rohit Verma — Full‑Stack Aspirant" />
+    <meta property="og:description" content="Data & AI projects, dashboards, certificates, and experience." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="doodle.png" />
+    <meta property="og:url" content="https://imrohit.online" />
+    <link rel="preload" as="image" href="doodle.png" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#about">Skip to main content</a>
+
+    <div class="loading-screen" aria-hidden="true">
+        <div class="loading-text">ROHIT VERMA</div>
+    </div>
+
+    <div class="main-content hidden">
+        <nav class="nav" aria-label="Primary">
+            <div class="nav-content">
+                <a href="#home" class="logo">ROHIT VERMA</a>
+                <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false"
+                    aria-controls="nav-drawer">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="nav-links" id="nav-drawer">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Portfolio</a></li>
+                    <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero-container">
+                <div class="hero-left reveal">
+                    <p class="eyebrow">Hello, It's Me</p>
+                    <h1 class="hero-name" id="hero-title">ROHIT VERMA</h1>
+                    <h2 class="hero-role">And I'm a <span class="typed-text" aria-live="polite"></span><span
+                            class="caret" aria-hidden="true">|</span></h2>
+                    <p class="hero-desc">
+                        Crafting clean, responsive interfaces and reliable back ends—turning ideas into working products
+                        with modern web stacks.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="resume.pdf" download class="btn btn-neon">Download CV</a>
+                        <a href="#projects" class="btn btn-outline">View My Work</a>
+                    </div>
+                    <div class="hero-social" aria-label="Social links">
+                        <a href="https://github.com/rohitverma2002" target="_blank" rel="noreferrer" class="social-icon"
+                            aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3 m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61 c3.14-.35 6.44-1.54 6.44-7 A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1 S18.73.65 16 2.48 a13.38 13.38 0 0 0-7 0 C6.27.65 5.09 1 5.09 1 A5.07 5.07 0 0 0 5 4.77 a5.44 5.44 0 0 0-1.5 3.78 c0 5.42 3.3 6.61 6.44 7 A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/im-rohitverma/" target="_blank" rel="noreferrer"
+                            class="social-icon" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7 a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7 a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-right reveal" aria-hidden="true">
+                    <div class="hex">
+                        <img src="doodle.png" alt="Portrait of Rohit Verma" loading="lazy" decoding="async" width="480"
+                            height="480">
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-btn">
+                <a href="#about" aria-label="Scroll to About section">
+                    <span class="scroll-text">Scroll</span>
+                    <span class="scroll-line"></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- (rest unchanged) -->
+        <section class="about" id="about" aria-labelledby="about-title">
+            <div class="section-content reveal">
+                <h2 class="section-title" id="about-title">About <span>Me</span></h2>
+                <div class="about-text">
+                    <p>
+                        I am a B.Tech Computer Science and Engineering graduate with a strong interest in full-stack 
+                        development. I enjoy building clean, responsive user interfaces and integrating them with 
+                        reliable backend systems using Python, SQL, and modern web technologies. I am passionate 
+                        about transforming ideas into functional products by designing user flows, structuring data 
+                        models, and delivering polished, user-friendly features. I am comfortable working collaboratively, 
+                        adapting quickly to new challenges, and continuously learning new tools and technologies to 
+                        create efficient and scalable solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="education" id="education" aria-labelledby="edu-title">
+            <div class="section-content reveal">
+                <h2 class="section-title" id="edu-title">My <span>Education</span></h2>
+                <div class="edu-timeline">
+                    <div class="edu-item current">
+                        <div class="edu-header">
+                            <h3>Bachelor of Technology, Computer Science Engineering</h3>
+                            <span class="edu-institute">OM Sterling Global University</span>
+                        </div>
+                        <div class="edu-meta">
+                            <span class="edu-duration">Sep 2022 – Sep 2026</span>
+                            <span class="edu-location">Hisar, Haryana, India</span>
+                        </div>
+                        <p class="edu-desc">
+                            Coursework in computer science engineering with focus on software fundamentals, programming,
+                            and applied technologies.
+                        </p>
+                    </div>
+
+                    <div class="edu-item">
+                        <div class="edu-header">
+                            <h3>Class XII (PCM)</h3>
+                            <span class="edu-institute">Galaxy International School, Rajli</span>
+                        </div>
+                        <div class="edu-meta">
+                            <span class="edu-duration">Mar 2021 – Mar 2022</span>
+                            <span class="edu-location">Hisar, Haryana, India</span>
+                        </div>
+                        <p class="edu-desc">
+                            Grade: 81.2% — Physics, Chemistry, Mathematics; strengthened analytical and quantitative
+                            skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills" aria-labelledby="skills-title">
+            <div class="section-content reveal">
+                <h2 class="section-title" id="skills-title">My <span>Skills</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Technical</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Full-Stack Web Development</li>
+                            <li>Responsive Web Design</li>
+                            <li>Backend Development</li>
+                            <li>Database Integration</li>
+                            <li>UI Designing</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>Microsoft 365</li>
+                            <li>Canva</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>General</h3>
+                        <ul>
+                            <li>Problem-Solving</li>
+                            <li>Team Collaboration</li>
+                            <li>Communication Skills</li>
+                            <li>Presentation Skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects" aria-labelledby="projects-title">
+            <div class="section-content reveal">
+                <h2 class="section-title" id="projects-title">Featured <span>Projects</span></h2>
+                <div class="projects-grid">
+
+                    <!-- BlackJack -->
+                    <div class="project-item">
+                        <div class="project-thumb">
+                            <img src="https://ik.imagekit.io/imrohitverma/Blackjack.png"
+                                alt="Food Delivery Website homepage preview" loading="lazy" decoding="async">
+                        </div>
+                        <h3>Blackjack - Casino Game</h3>
+                        <p>
+                            A classic card game implemented in HTML, CSS, and JavaScript, featuring interactive gameplay, score tracking, and responsive design for an engaging user experience.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Game</span>
+                            <span class="tag">Responsive</span>
+                            <span class="tag">interactive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitverma2002/BlackJack" target="_blank"
+                                class="project-cta primary" rel="noreferrer">
+                                <span>View Project</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M13 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Food Delivery Website -->
+                    <div class="project-item">
+                        <div class="project-thumb">
+                            <img src="https://ik.imagekit.io/imrohitverma/Food%20delivery%20website.png"
+                                alt="Food Delivery Website homepage preview" loading="lazy" decoding="async">
+                        </div>
+                        <h3>Food Delivery Website</h3>
+                        <p>
+                            User-friendly interface that allows customers to browse menus, add items to cart, and place orders easily with secure online payment options,
+                            restaurant management dashboard, and quick notifications to ensure fast delivery and smooth order processing.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Food</span>
+                            <span class="tag">Order</span>
+                            <span class="tag">Cart</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitverma2002/Food-Delivery-Website" target="_blank"
+                                class="project-cta primary" rel="noreferrer">
+                                <span>View Project</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M13 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Weather App -->
+                    <div class="project-item">
+                        <div class="project-thumb">
+                            <img src="https://ik.imagekit.io/imrohitverma/Weather%20app.png"
+                                alt="Weather App preview" loading="lazy" decoding="async">
+                        </div>
+                        <h3>Weather App</h3>
+                        <p>
+                            Displays current weather details such as temperature and conditions for the user-requested location.
+                            Allows users to search and view weather information for any specific city or place on demand.
+                        
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Condition</span>
+                            <span class="tag">Temperature</span>
+                            <span class="tag">Wind Speed</span>
+                            <span class="tag">Humidity</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitverma2002/Weather-App"
+                                target="_blank" class="project-cta primary" rel="noreferrer">
+                                <span>View Project</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M13 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="certificates" id="certificates" aria-labelledby="cert-title">
+            <div class="section-content reveal">
+                <h2 class="section-title" id="cert-title">My <span>Certificates</span></h2>
+                <div class="cert-grid">
+
+                    <div class="cert-card">
+                        <div class="cert-thumb">
+                            <img src="https://ik.imagekit.io/imrohitverma/German%20Provisional.jpeg"
+                                alt="Certificate of Proficiency in German Language thumbnail" loading="lazy"
+                                decoding="async">
+                        </div>
+                        <h3>Certificate of Proficiency in German Language</h3>
+                        <p class="cert-issuer">Guru Jambheshwar University of Science & Technology, Hisar</p>
+                        <p class="cert-date">Issued: Mar 2026</p>
+                        <p class="cert-desc">
+                            Completed the short-term certificate course in German language (Department of English and
+                            Foreign Languages), awarded Grade A with 131/150.
+                        </p>
+                        <a class="cert-btn"
+                            href="https://ik.imagekit.io/imrohitverma/German%20Provisional.jpeg"
+                            target="_blank" rel="noreferrer">View Certificate</a>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-thumb">
+                            <img src="https://ik.imagekit.io/imrohitverma/certificate-CERT-2BF09AFF-B4B7-4671.png"
+                                alt="GDG Cloud New Delhi AI Manthan participation certificate thumbnail" loading="lazy"
+                                decoding="async">
+                        </div>
+                        <h3>AI Manthan: Agents at Work — Certificate of Participation</h3>
+                        <p class="cert-issuer">Google Developer Groups Cloud · New Delhi</p>
+                        <p class="cert-date">Issued: Dec 2025</p>
+                        <p class="cert-desc">
+                            Participated in AI Manthan: Agents at Work organized by GDG Cloud New Delhi at the Google
+                            Office, Gurugram.
+                        </p>
+                        <a class="cert-btn" href="https://www.creadefy.com/verify/CERT-2BF09AFF-B4B7-4671"
+                            target="_blank" rel="noreferrer">Verify Certificate</a>
+                    </div>
+
+                    <!--
+                    <div class="cert-card">
+                        <div class="cert-thumb">
+                            <img src="https://ik.imagekit.io/imrohitkverma/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_vBLaEdHpouBChJNk2_1746867251378_completion_certificate.png?updatedAt=1765515256832"
+                                alt="Deloitte Data Analytics Job Simulation certificate thumbnail" loading="lazy"
+                                decoding="async">
+                        </div>
+                        <h3>Data Analytics Job Simulation</h3>
+                        <p class="cert-issuer">Deloitte (Forage)</p>
+                        <p class="cert-date">Issued: May 2025</p>
+                        <p class="cert-desc">
+                            Completed practical tasks in data analysis and forensic technology during Deloitte’s Data
+                            Analytics Job Simulation.
+                        </p>
+                        <a class="cert-btn"
+                            href="https://ik.imagekit.io/imrohitverma/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_vBLaEdHpouBChJNk2_1746867251378_completion_certificate.png?updatedAt=1765515256832"
+                            target="_blank" rel="noreferrer">View Certificate</a>
+                    </div>
+                    -->
+
+                    <div class="cert-card">
+                        <div class="cert-thumb">
+                            <img src="https://ik.imagekit.io/imrohitverma/CertificateOfCompletion_MySQL%20Essential%20Training.jpg?updatedAt=1767614801024"
+                                alt="Shankara Global Hackathon participation certificate thumbnail" loading="lazy"
+                                decoding="async">
+                        </div>
+                        <h3>My SQL Essential Training (Microsoft 365)</h3>
+                        <p class="cert-issuer">LinkedIn Learning</p>
+                        <p class="cert-date">Issued: Aug 2024</p>
+                        <p class="cert-desc">
+                            Completed LinkedIn Learning’s SQL Essential Training (Microsoft 365), covering fundamental SQL concepts, 
+                            querying databases, data retrieval, filtering, and best practices for efficient data management.
+                        </p>
+                        <a class="cert-btn"
+                            href="https://ik.imagekit.io/imrohitverma/CertificateOfCompletion_MySQL%20Essential%20Training.pdf"
+                            target="_blank" rel="noreferrer">View Certificate</a>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-thumb">
+                            <img src="https://ik.imagekit.io/imrohitverma/CertificateOfCompletion_Excel%20Essential%20Training%20Microsoft%20365.jpg?updatedAt=1767614856847.jpg"
+                                alt="LinkedIn Learning Excel Essential Training certificate thumbnail" loading="lazy"
+                                decoding="async">
+                        </div>
+                        <h3>Excel Essential Training (Microsoft 365)</h3>
+                        <p class="cert-issuer">LinkedIn Learning</p>
+                        <p class="cert-date">Issued: Aug 2024</p>
+                        <p class="cert-desc">
+                            Completed LinkedIn Learning’s Excel Essential Training (Microsoft 365), covering core
+                            spreadsheet skills, formulas, data organization, and productivity best practices.
+                        </p>
+                        <a class="cert-btn"
+                            href="https://ik.imagekit.io/imrohitverma/CertificateOfCompletion_MySQL%20Essential%20Training.pdf"
+                            target="_blank" rel="noreferrer">View Certificate</a>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-thumb">
+                            <img src="https://ik.imagekit.io/imrohitverma/Python%20cert..jpg"
+                                alt="Programming with Python certificate thumbnail from Hartron/NCVET" loading="lazy"
+                                decoding="async">
+                        </div>
+                        <h3>Programming with Python</h3>
+                        <p class="cert-issuer">Haryana State Electronics Development Corporation (NCVET)</p>
+                        <p class="cert-date">Issued: Mar 2024</p>
+                        <p class="cert-desc">
+                            Completed a 12-week, Level 4 “Programming with Python” program at Hartron Skill Centre,
+                            Hisar, earning an A grade (72/100).
+                        </p>
+                        <a class="cert-btn" href="https://ik.imagekit.io/imrohitverma/Python%20cert..jpg"
+                            target="_blank" rel="noreferrer">View Certificate</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="experience" id="experience" aria-labelledby="exp-title">
+            <div class="section-content reveal">
+                <h2 class="section-title" id="exp-title">Work <span>Experience</span></h2>
+                <div class="exp-timeline">
+
+                    <div class="exp-item">
+                        <div class="exp-header">
+                            <h3>Azure AI &amp; Machine Learning Trainee</h3>
+                            <span class="exp-company">ICT Academy · Trainee</span>
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-duration">Nov 2025 – Nov 2025 (1 mo)</span>
+                            <span class="exp-location">OM Sterling Global University, Hisar · On-site</span>
+                        </div>
+                        <ul class="exp-points">
+                            <li>Completed a 15-day intensive, full-time training focused on building and deploying AI
+                                solutions using Microsoft Azure.</li>
+                            <li>Gained hands-on exposure to real-world machine learning workflows, cloud-based AI
+                                services, and deployment practices.</li>
+                            <li>Worked on applied scenarios covering Azure AI/ML tooling, from data prep to inference
+                                and monitoring.</li>
+                        </ul>
+                    </div>
+
+                    <div class="exp-item">
+                        <div class="exp-header">
+                            <h3>Trainee Programme</h3>
+                            <span class="exp-company">Zidio Development · Trainee</span>
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-duration">Jul 2025 – Sep 2025 (3 mos)</span>
+                            <span class="exp-location">Hisar, Haryana, India · Remote</span>
+                        </div>
+                        <ul class="exp-points">
+                            <li>I gained hands-on experience in data analysis, data preprocessing, and working with real-world datasets.</li>
+                            <li>The internship helped me strengthen my analytical thinking and practical understanding of data-driven problem solving and
+                                responsive remote support.</li>
+                        </ul>
+                    </div>
+
+                    <div class="exp-item">
+                        <div class="exp-header">
+                            <h3>Internship Trainee</h3>
+                            <span class="exp-company">Ducat India · Trainee</span>
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-duration">Jun 2024 – Aug 2024 (3 mos)</span>
+                            <span class="exp-location">Gurugram, Haryana, India · On-site</span>
+                        </div>
+                        <ul class="exp-points">
+                            <li>Completed a data science internship focused on Python (course dates: Jun–Sep 2024),
+                                covering data cleaning, analysis, and visualization.</li>
+                            <li>Built mini-projects using Python/pandas to process and summarize datasets; produced
+                                clear insights and presentations.</li>
+                            <li>Earned a certificate of completion for Data Science using Python; strengthened
+                                communication, presentation, and analytical skills.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer" aria-label="Footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Rohit Verma. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="resume.pdf" download class="download-btn">Resume</a>
+                    <a href="https://github.com/rohitverma2002" target="_blank" rel="noreferrer"
+                        class="social-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/im-rohitverma/" target="_blank" rel="noreferrer"
+                        class="social-link">LinkedIn</a>
+                    <a href="mailto:rohitverma4547@gmail.com" class="social-link">Hire Me!</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
